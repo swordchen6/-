@@ -1,0 +1,1 @@
+g++ -o "/home/chen/projects/MyThreadPool/bin/x64/Debug/MyThreadPool.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/chen/projects/MyThreadPool/obj/x64/Debug/main.o /home/chen/projects/MyThreadPool/obj/x64/Debug/TaskQueue.o /home/chen/projects/MyThreadPool/obj/x64/Debug/ThreadPool.o -lpthread

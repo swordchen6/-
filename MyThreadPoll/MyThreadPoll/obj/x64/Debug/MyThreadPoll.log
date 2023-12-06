@@ -1,0 +1,20 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.188.88”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+  TaskQueue.cpp
+D:\visual studio project\MyThreadPoll\MyThreadPoll\TaskQueue.cpp(43,25): warning : conversion to ‘int’ from ‘std::queue<Task>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\visual studio project\MyThreadPoll\MyThreadPoll\TaskQueue.cpp(43,25): warning :      return m_taskQ.size();
+D:\visual studio project\MyThreadPoll\MyThreadPoll\TaskQueue.cpp(43,25): warning :                          ^
+  ThreadPool.cpp
+D:\visual studio project\MyThreadPoll\MyThreadPoll\ThreadPool.cpp(121,15): warning : deleting ‘void*’ is undefined [enabled by default]
+D:\visual studio project\MyThreadPoll\MyThreadPoll\ThreadPool.cpp(121,15): warning :    delete task.arg;
+D:\visual studio project\MyThreadPoll\MyThreadPoll\ThreadPool.cpp(121,15): warning :                ^
+D:\visual studio project\MyThreadPoll\MyThreadPoll\ThreadPool.cpp(179,17): warning : statement has no effect [-Wunused-value]
+D:\visual studio project\MyThreadPoll\MyThreadPoll\ThreadPool.cpp(179,17): warning :     threadIDs[i] == 0;
+D:\visual studio project\MyThreadPoll\MyThreadPoll\ThreadPool.cpp(179,17): warning :                  ^
+  正在链接对象
+  MyThreadPoll.vcxproj -> D:\visual studio project\MyThreadPoll\MyThreadPoll\bin\x64\Debug\MyThreadPool.out
