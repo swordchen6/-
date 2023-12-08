@@ -1,0 +1,16 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.188.88”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  locker.cpp
+  main.cpp
+D:\visual studio project\MyMemPool\MyMemPool\main.cpp(27,35): warning : unused variable ‘p’ [-Wunused-variable]
+D:\visual studio project\MyMemPool\MyMemPool\main.cpp(27,35): warning :      TestClass<RealClass,TEST_NUM> p;
+D:\visual studio project\MyMemPool\MyMemPool\main.cpp(27,35): warning :                                    ^
+  MemPool.cpp
+  RealClass.cpp
+  TestClass.cpp
+  正在链接对象
+  MyMemPool.vcxproj -> D:\visual studio project\MyMemPool\MyMemPool\bin\x64\Debug\MyMemPool.out
