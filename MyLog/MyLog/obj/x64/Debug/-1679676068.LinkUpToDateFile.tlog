@@ -1,0 +1,1 @@
+g++ -o "/home/chen/projects/MyLog/bin/x64/Debug/MyLog.out" -Wl,--no-undefined -Wl,-L/usr/lib64/mysql -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/chen/projects/MyLog/obj/x64/Debug/Locker.o /home/chen/projects/MyLog/obj/x64/Debug/Log.o /home/chen/projects/MyLog/obj/x64/Debug/main.o -lmysqlclient -lpthread -ldl -lssl -lcrypto -lresolv -lm -lrt

@@ -1,0 +1,12 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.188.88”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  Log.cpp
+D:\visual studio project\MyLog\MyLog\Log.cpp(34,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\visual studio project\MyLog\MyLog\Log.cpp(34,1): warning :  }
+D:\visual studio project\MyLog\MyLog\Log.cpp(34,1): warning :  ^
+  正在链接对象
+  MyLog.vcxproj -> D:\visual studio project\MyLog\MyLog\bin\x64\Debug\MyLog.out
